@@ -4,14 +4,11 @@ class ItemForm extends Component{
 
 constructor(props){
   super(props);
-  return(
     this.state = {
       name: "",
       price:""
-    }
-  );
+  };
 }
-
 render(){
   return(
     <form className="ItemForm" onSubmit={this.handleSubmit.bind(this)}>
@@ -27,7 +24,6 @@ render(){
                 <button type="submit">Add</button>
             </p>
         </form>
-
   );
 }
 handleNameChange(event) {

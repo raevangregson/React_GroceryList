@@ -14,7 +14,6 @@ class ShoppingList extends Component {
 
     )
   };
-
 }
 
 export default ShoppingList;
